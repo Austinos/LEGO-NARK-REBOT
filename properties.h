@@ -13,7 +13,7 @@ class Properties : public QObject
     Q_PROPERTY(int valy READ valy WRITE setvaly NOTIFY valyChanged)
     //rotation du rebot
     Q_PROPERTY(int robotrotation READ robotrotation WRITE setrobotrotation NOTIFY robotrotationChanged)
-
+// you can  make  ratation  function  with  Q_Invocable  
 public:
     explicit Properties(QObject *parent = 0);
 
